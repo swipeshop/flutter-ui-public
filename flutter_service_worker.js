@@ -9,7 +9,7 @@ const RESOURCES = {
 "assets/assets/fonts/Gordita_Medium.otf": "2a23af3d8545de5786416ee382d5d66a",
 "assets/assets/fonts/Gordita_Regular.otf": "8f8fc889a9739732e20d1de9a01919f6",
 "assets/assets/fonts/Gordita_Thin.otf": "dc93ae52e18e464660f04f1429cd1156",
-"assets/assets/fonts/KlankIcons.ttf": "d46dc38d01a1f30907d794b5d5aa3d30",
+"assets/assets/fonts/KlankIcons.ttf": "3a54b01d874b5685b9381b23c705eed3",
 "assets/assets/fonts/SF-Pro-Text/SF-Pro-Text-Black.otf": "82d5f38559f66d19b968066608f4a489",
 "assets/assets/fonts/SF-Pro-Text/SF-Pro-Text-BlackItalic.otf": "774fc2cdd8f7b73b4d092b7c4b787486",
 "assets/assets/fonts/SF-Pro-Text/SF-Pro-Text-Bold.otf": "88b6e0b21919fa6abb7899faa1571f01",
@@ -67,9 +67,9 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/icon192.png": "a8bc8c3508f4cfd0455ba31cb1dbd513",
 "icons/icon512.png": "e9a98c54338bc8bc9559e3009429141d",
-"index.html": "48f89bb21e306a5c6e8c3dc0eac20aaf",
-"/": "48f89bb21e306a5c6e8c3dc0eac20aaf",
-"main.dart.js": "284ef5a4d3fbcbd01812d20ad3d724ba",
+"index.html": "8fceaf2140de4c5d6782187f2c28e222",
+"/": "8fceaf2140de4c5d6782187f2c28e222",
+"main.dart.js": "c82b2fd4672bcaa1a71b3da6dcb55422",
 "manifest.json": "db9c48195d317a6c41bedd5efaeafc26",
 "version.json": "065d2f34f6adda65236244b77a5e3efd"
 };
