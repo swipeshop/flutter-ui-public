@@ -28258,7 +28258,7 @@ o=i.oW("s_sources")
 l=B.b.bw(o==null?A.b([],t.s):o,",")
 k=A.am(g.h(h,"s_gender"))
 s=4
-return A.K(A.aIW(A.d6("https://back.klank.ml/api/item/get?gender="+(k==null?"any":k)[0]+"&price_from="+f+"&category="+m+"&source="+l+"&brand="+n+"&price_to="+p+"&lang=RU&currency=RUB&limit="+a)),$async$xh)
+return A.K(A.aIW(A.d6("https://api.klank.tech/api/item/get?gender="+(k==null?"any":k)[0]+"&price_from="+f+"&category="+m+"&source="+l+"&brand="+n+"&price_to="+p+"&lang=RU&currency=RUB&limit="+a)),$async$xh)
 case 4:j=c
 if(j.b===200){h=A.b([],t.J)
 for(g=J.aw(B.a2.o_(0,A.Iv(A.Im(j.e).c.a.h(0,"charset")).ev(0,j.w),null));g.A();)h.push(A.azU(g.gJ(g)))
@@ -28269,7 +28269,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$xh,r)},
 axc(a,b,c){var s=0,r=A.I(t.IV),q,p,o,n,m
 var $async$axc=A.D(function(d,e){if(d===1)return A.F(e,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/get_likes")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/get_likes")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28284,7 +28284,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$axc,r)},
 Iw(a){var s=0,r=A.I(t.v9),q,p,o,n,m
 var $async$Iw=A.D(function(b,c){if(b===1)return A.F(c,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/get_sets")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/get_sets")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28312,7 +28312,7 @@ else o.n(0,p,A.b([q],r))}return o},
 axb(){var s=0,r=A.I(t.a),q,p
 var $async$axb=A.D(function(a,b){if(a===1)return A.F(b,r)
 while(true)switch(s){case 0:s=3
-return A.K(A.aIW(A.d6("https://back.klank.ml/api/item/get_stats")),$async$axb)
+return A.K(A.aIW(A.d6("https://api.klank.tech/api/item/get_stats")),$async$axb)
 case 3:p=b
 if(p.b===200){q=B.a2.o_(0,A.Iv(A.Im(p.e).c.a.h(0,"charset")).ev(0,p.w),null)
 s=1
@@ -28321,7 +28321,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$axb,r)},
 a0I(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$a0I=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/add")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/add")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28333,7 +28333,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$a0I,r)},
 a0L(a){var s=0,r=A.I(t.a),q,p,o,n,m
 var $async$a0L=A.D(function(b,c){if(b===1)return A.F(c,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/get_info")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/get_info")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28346,7 +28346,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$a0L,r)},
 awV(a){var s=0,r=A.I(t.y),q,p,o,n,m
 var $async$awV=A.D(function(b,c){if(b===1)return A.F(c,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/is_onboarded")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/is_onboarded")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28359,7 +28359,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$awV,r)},
 axY(a){var s=0,r=A.I(t.z),q,p,o,n
 var $async$axY=A.D(function(b,c){if(b===1)return A.F(c,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/set_onboarded")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/set_onboarded")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28371,7 +28371,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$axY,r)},
 ay1(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$ay1=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/update")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/update")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28383,7 +28383,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$ay1,r)},
 awP(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$awP=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/add_likes")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/add_likes")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28395,7 +28395,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$awP,r)},
 ax3(a,b){var s=0,r=A.I(t.y),q,p,o,n
 var $async$ax3=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/del_like")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/del_like")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28407,7 +28407,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$ax3,r)},
 awO(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$awO=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/add_dislikes")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/add_dislikes")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28419,7 +28419,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$awO,r)},
 awN(a,b,c){var s=0,r=A.I(t.z),q,p,o,n
 var $async$awN=A.D(function(d,e){if(d===1)return A.F(e,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/add_set")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/add_set")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
@@ -28431,7 +28431,7 @@ case 1:return A.G(q,r)}})
 return A.H($async$awN,r)},
 ax2(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$ax2=A.D(function(c,d){if(c===1)return A.F(d,r)
-while(true)switch(s){case 0:p=A.d6("https://back.klank.ml/api/user/remove_set")
+while(true)switch(s){case 0:p=A.d6("https://api.klank.tech/api/user/remove_set")
 o=t.N
 n=A.ag(["Content-Type","application/json; charset=UTF-8","Accept","*/*"],o,o)
 s=3
