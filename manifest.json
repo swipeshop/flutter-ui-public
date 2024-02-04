@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#7B61FF",
     "theme_color": "#7B61FF",
-    "description": "Klank - shopping app",
+    "description": "Klank - fashion recommendations app",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
